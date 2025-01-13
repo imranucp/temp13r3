@@ -1,0 +1,14 @@
+name: ci_wf
+on:
+  push:
+    branches:
+      - develop
+  pull_request:
+    branches:
+      - develop
+jobs:
+  lint_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Step 1 of 
+        run: echo "Allah Please Help"
